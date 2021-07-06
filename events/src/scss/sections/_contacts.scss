@@ -1,0 +1,45 @@
+.contacts {
+	padding: 96px 0 90px 0;
+
+	.container {
+		max-width: 1130px;
+	}
+
+	&__content {
+		margin: 120px 0 0 27px;
+		display: flex;
+	}
+
+	&__img {
+		width: 309px;
+		height: 301px;
+		background: url(../img/contacts-image.png) center/cover no-repeat;
+	}
+	
+	&-list {
+		margin-left: 108px;
+		
+		&__item {
+			margin-bottom: 45px;
+		}
+		
+		&__link {
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+		}
+		
+		&__text {
+			display: flex;
+			flex-direction: column;
+			margin-left: 62px;
+			font-size: 30px;
+			font-weight: 700;
+			color: rgb(62, 63, 63);
+			
+			span {
+				margin-top: 20px;
+			}
+		}
+	}
+}

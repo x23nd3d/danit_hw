@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Обо мне</title>
+	<link rel="stylesheet" href="./css/main.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a href="/" class="logo navbar__logo">
+				<span class="logo__text">Alin</span>
+				<span class="logo__delta logo__delta_red"></span>
+				<span class="logo__text">Lobod</span>
+				<span class="logo__delta logo__delta_blue"></span>
+			</a>
+			<ul class="nav-menu navbar__nav-menu">
+				<li class="nav-menu__item"><a href="./index.html" class="nav-menu__link">Events</a></li>
+				<li class="nav-menu__item active"><a href="./about-me.html" class="nav-menu__link">Обо мне</a></li>
+				<li class="nav-menu__item"><a href="./contacts.html" class="nav-menu__link active">Контакты</a></li>
+				<li class="nav-menu__item"><a href="./discounts.html" class="nav-menu__link">Акции</a></li>
+			</ul>
+			<div class="navbar__buttons">
+				<a href="#" class="navbar__btn _calendar">
+					<img class="navbar__icon" src="./img/icon-calendar.png" alt="calendar">
+				</a>
+				<a id="search" href="#popup2" class="show_popup navbar__btn _search">
+					<img class="navbar__icon" src="./img/icon-search.png" alt="search">
+				</a>
+			</div>
+		</div>
+		<div class="overlay_popup" id="popup2">
+			<div class="popup-content">
+				<img src="img/popup-calendar-example.jpg">
+			</div>
+		</div>
+	</nav>
+
+	<header class="header about-me-header">
+		<div id="about-me-header-bg"></div>
+		<div class="container">
+			<div class="header__text">
+				<p class="header__text_large">Я - <span>фея ивентов</span>!</p>
+				<p class="header__text_medium">хотите знать обо всех events?</p>
+				<p class="header__text_small">все они находятся здесь!</p>
+				<p class="header__text_small _insta">@alinaloboda</p>
+				<a href="#" class="btn _header-btn about-me-header__btn">Хочу EVENT!</a>
+			</div>
+			<div class="about-me-header__img"></div>
+		</div>
+	</header>
+
+	<section class="about-us">
+		<div class="container">
+			<div class="about-us__count">
+				<p class="about-us__events-amount"><span>56</span>Более Events</p>
+				<p class="about-us__events-amount"><span>438</span>Более Партнерств</p>
+				<p class="about-us__events-amount"><span>1287</span>Более Участников</p>
+			</div>
+			<div class="about-us-quote">
+				<p class="about-us-quote__text"><span>"Самые интересные</span> праздники не знает никто!
+					А что, если бы о них знали все?
+					Я это исправлю!<span>"</span></p>
+			</div>
+			<div class="about-us-video">
+				<a href="#" class="about-us-video__play-btn"></a>
+			</div>
+			<p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</section>
+
+	<section class="our-partners">
+	<div id="our-partners-bg"></div>
+		<div class="container">
+			<div class="our-partners__article">
+				<h2 class="our-partners__title">Наши партнеры</h2>
+				<p class="our-partners__text">Мы сотрудничали с такими крупными брендами, как: Dominos, AirDoctor, Lumenis, Gbaby, Salermstudio, Sativa, Aqua.melan, Evrasia, Chicco, Bodo, Bargello and other...</p>
+			</div>
+			<img src="./img/our-partners-img.png" alt="Our partner's logo" class="our-partners__img">
+		</div>
+	</section>
+
+	<section class="feedback">
+		<div class="container">
+			<h2 class="heading">Оставить Отзыв об Event</h2>
+			<div class="feedback__content">
+				<form action="" class="feedback-form">
+					<div class="feedback-form__arrow">
+						<img src="./img/blue-arrow.png" alt="Feedback arrow">
+					</div>
+					<input type="text" placeholder="Имя, @ Instagram" class="feedback-form__input">
+					<textarea name="feedback-textarea" id="" rows="10" placeholder="Комментарии" class="feedback-form__input"></textarea>
+					<button class="btn feedback-form__btn">Оставить Отзыв</button>
+				</form>
+				<div class="feedbacks">
+					<div id="feedback" class="feedbacks__item">
+						<div class="feedbacks__comment _1 active">
+							<div class="feedbacks__about-person">
+								<div class="feedbacks__photo"></div>
+								<div class="feedbacks__person-info">
+									<p class="feedbacks__name">Яна,</p>
+									<p class="feedbacks__post">Блогер</p>
+								</div>
+							</div>
+							<p class="feedbacks__quote">" Я хожу на ивенты Алины уже более года. Каждый ивент лучше предыдущего. Все всегда довольные!"</p>
+						</div>
+						<div class="feedbacks__comment _2">
+							<div class="feedbacks__about-person">
+								<div class="feedbacks__photo"></div>
+								<div class="feedbacks__person-info">
+									<p class="feedbacks__name">Вика,</p>
+									<p class="feedbacks__post">Блогер</p>
+								</div>
+							</div>
+							<p class="feedbacks__quote">" Как расслабить мозг и зарядиться позитивом - все просто прийти на мероприятие этой рыженькой барышни. А еще после него Месяц делать так что щечки у нее краснеют, потому что она задарит вас подарками..."</p>
+						</div>
+						<div class="feedbacks__comment _3">
+							<div class="feedbacks__about-person">
+								<div class="feedbacks__photo"></div>
+								<div class="feedbacks__person-info">
+									<p class="feedbacks__name">Юля,</p>
+									<p class="feedbacks__post">Блогер</p>
+								</div>
+							</div>
+							<p class="feedbacks__quote">" Очень нравятся твои ивенты, всегда выхожу заряженная позитивом и мотивацией❤️😌"</p>
+						</div>
+						<a href="#" id="feedback-btn" class="feedbacks__btn">
+							<img src="./img/feedbacks-btn.png" alt="btn">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="subscribe">
+		<div class="container">
+			<form action="" class="subscribe__form">
+				<legend class="subscribe__title">Подпишитесь на Новости!</legend>
+				<input type="email" class="subscribe__input" placeholder="Email">
+				<button class="subscribe__btn">Отправить</button>
+			</form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__left-col">
+				<a href="/" class="logo footer__logo">
+					<span class="logo__text">Alin</span>
+					<span class="logo__delta logo__delta_red"></span>
+					<span class="logo__text">Lobod</span>
+					<span class="logo__delta logo__delta_blue"></span>
+				</a>
+				<div class="footer__contacts">
+					<a href="tel:+38063894586" class="footer__phone">+38063894586</a>
+					<a href="https://www.instagram.com/alinaloboda/" target="_blank" class="footer__icon">
+						<img src="./img/footer/icon1.png" alt="icon" class="footer__img">
+					</a>
+					<a href="tg://resolve?domain=@events_ua_bot" class="footer__icon">
+						<img src="./img/footer/icon2.png" alt="icon" class="footer__img">
+					</a>
+					<a href="mailto:insta@events.in.ua" class="footer__icon">
+						<img src="./img/footer/icon3.png" alt="icon" class="footer__img">
+					</a>
+				</div>
+			</div>
+			<div class="footer__right-col">
+				<a href="#popup1" class="show_popup btn _red">Хочу Event</a>
+				<p class="footer__copyright"><span>&copy;</span>2019. AlinaLoboda. All rights reserved.</p>
+			</div>
+			<div class="overlay_popup" id="popup1">
+				<div class="popup-content">
+					<div class="event-form popup-form">
+						<form action="" class="header-form__form">
+							<legend class="header-form__title"><span class="header-form__title_bold">Хотите организовать</span>
+								свой <span class="header-form__title_selected">ивент?</span></legend>
+							<input type="text" class="header-form__input" placeholder="Instagram">
+							<input type="tel" class="header-form__input" placeholder="Telephone">
+							<button class="btn _header-btn header-form__btn">Хочу EVENT!</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/resize-slider.js"></script>
+	<script src="js/cofg-resize-slider.js"></script>
+
+</body>
+
+</html>

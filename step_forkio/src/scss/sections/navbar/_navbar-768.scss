@@ -1,0 +1,39 @@
+.menu-btn {
+	display: none;
+}
+
+
+.container {
+	       width: auto;
+	   }
+.flex{
+        align-items:center;
+ 
+    }
+
+
+.navbar {
+&__list {
+display: flex;
+    list-style: none;
+    padding-top: 0;
+	    padding-bottom: 22px;
+       margin: 0 auto;
+    position: unset;
+    order: 2;
+}
+
+
+
+&__btn-container {
+    display: flex;
+    order: 1;
+	   margin: 0; 
+
+}
+
+}
+
+
+
+

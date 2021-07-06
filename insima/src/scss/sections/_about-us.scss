@@ -1,0 +1,64 @@
+.about-us {
+	padding: 73px 0;
+	background-color: $bgc-light;
+	
+	&-content {
+		margin-top: 40px;
+	}
+	
+	&-info {
+		display: flex;
+	}
+	
+	&-text {
+		width: 50%;
+		margin-right: 30px;
+		color: $text-color;
+		font-size: 17px;
+		line-height: 1.5em;
+		
+		.bold {
+			font-weight: 700;
+			margin-top: 0.2em;
+		}
+	}
+	
+	&-btn {
+		margin-top: 27px;
+	}
+	
+	&-switch {
+		margin-top: 35px;
+	}
+}
+
+.switch-btn {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: $text-color;
+	padding: 13px;
+	border: 1px solid $text-color;
+	transition: 0.4s;
+	
+	&:hover {
+		background-color: $text-color;
+		color: $bgc-light;
+	}
+	
+	&:after {
+		position: absolute;
+		transform: scaleY(1.5);
+		top: 5px;
+	}
+	
+	&._left:after {
+		content: '\003C';
+		left: 8px;
+	}
+	
+	&._right:after {
+		content: '\003E';
+		right: 8px;
+	}
+}

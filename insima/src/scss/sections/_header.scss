@@ -1,0 +1,60 @@
+.header {
+	background: url(../img/backgrounds/header-1.png) center/cover no-repeat;
+	
+	&-section {
+		padding: 95px 0 86px 0;
+	}
+	
+	&-text {
+		
+		&-medium {
+			font-size: 29px;
+			font-weight: 700;
+			color: $main-color;
+			margin-bottom: 26px;
+		}
+		
+		&-large {
+			font-size: 51px;
+			font-weight: 800;
+			color: $dark-color;
+			width: 525px;
+			margin-bottom: 20px;
+		}
+		
+		&-small {
+			font-size: 28px;
+			color: $dark-color;
+			line-height: 1.5em;
+			width: 620px;
+		}
+	}
+}
+
+.advantages {
+	padding: 45px 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	
+	&-content {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 30px;
+	}
+	
+	&-item {
+		width: 160px;
+		text-align: center;
+	}
+	
+	&-icon {
+		max-width: 87px;
+		max-height: 87px;
+	}
+	
+	&-text {
+		font-size: 18px;
+		color: $dark-color;
+		margin-top: 18px;
+		line-height: 1.1em;
+	}
+}

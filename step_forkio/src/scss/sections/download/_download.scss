@@ -1,0 +1,60 @@
+.download {
+
+    background-color: $main-bg-color;
+    // padding-bottom: 200px; // for test
+    @include flex-center
+}    
+
+.download {
+    &__position{
+    position: relative;
+    text-align: center;
+    bottom: 8px;
+    }
+    &__description{
+        margin-top: 25px;
+        color: #848e97;
+        font-family: $main-font-1;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__text-container{
+@include flex-center
+    }
+    &__title {
+        color: #635c73;
+        font-family: $main-font-1;
+        font-size: 54px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 38px;
+        margin-bottom: 29px;
+
+    }
+    &__title-description {
+        opacity: 0.8;
+        color: #323232;
+        font-family: $main-font-2;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 0;
+    }
+    &__share-buttons {
+        @include flex-center;
+        margin-top: 36px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+.share {
+
+    &__button {
+        margin: 0 5px; 
+    }
+
+}
+
+

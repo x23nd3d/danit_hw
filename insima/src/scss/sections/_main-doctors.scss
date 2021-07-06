@@ -1,0 +1,33 @@
+.main-doctors {
+	height: 816px;
+	background: url(../img/backgrounds/doctors.png) center/cover no-repeat;
+	
+	&-container {
+		position: relative;
+	}
+	
+	&-info {
+		position: absolute;
+		width: 195px;
+		color: $dark-color;
+		font-size: 18px;
+		
+		&._1 {
+			top: 85px;
+		}
+		
+		&._2 {
+			top: 275px;
+			right: 0px;
+		}
+	}
+	
+	&-name {
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	
+	&-description {
+		line-height: 1.2em;
+	}
+}

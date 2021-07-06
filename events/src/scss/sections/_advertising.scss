@@ -1,0 +1,133 @@
+.advertising {
+	padding: 34px 11px 40px;
+	background: linear-gradient(to right, rgba(7, 38, 191, 0.5), rgba(254, 107, 91, 0.5)), url(../img/likes.png) center/cover no-repeat;
+	
+	&__container {
+		max-width: 1350px;
+		margin: 0 auto;
+	}
+	
+	.slick-next {
+		right: 15px;
+	}
+	
+	.slick-prev {
+		left: 15px;
+	}
+	
+	.slick-next, .slick-prev {
+		opacity: 0.6;
+	}
+	
+	.slick-next:hover, .slick-prev:hover {
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+	}
+}
+
+.b-advertising {
+	max-width: 690px;
+	padding: 11px 0 24px 27px;
+	border-radius: 10px;
+	background: linear-gradient(#fbd1f0, #b095ca);
+	display: flex;
+	margin: 0 5px;
+	
+	&._1 .b-advertising__img {
+		background-image: url(../img/discounts/img-9.png);
+	}
+	
+	&._2 .b-advertising__img {
+		background-image: url(../img/discounts/img-11.png);
+	}
+	
+	&._3 .b-advertising__img {
+		background-image: url(../img/discounts/img-13.png);
+	}
+	
+	&._4 .b-advertising__img {
+		background-image: url(../img/discounts/img-10.png);
+	}
+	
+	&__img {
+		width: 273px;
+		height: 279px;
+		border-radius: 15px;
+		flex-shrink: 0;
+		background: center/cover no-repeat;
+	}
+	
+	&__details {
+		font-weight: 700;
+		text-align: center;
+		max-width: 310px;
+		margin: 26px 40px 0 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	&__title {
+		color: #fa1515;
+		line-height: 1.5em;
+		font-size: 24px;
+	}
+	
+	&__text {
+		color: #fff;
+		font-size: 18px;
+		line-height: 1.5em;
+		margin: auto 0 20px 0;
+	}
+	
+	&__btn {
+		font-size: 20px;
+		color: #fff;
+		padding: 12px 58px;
+		background-color: #9ce4e4;
+		border-radius: 10px;
+		text-decoration: none;
+		outline: none;
+		display: inline-block;
+	}
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    width: 100%;
+	
+    li {
+        position: relative;
+        display: inline-block;
+		
+        button {
+            border: 0;
+            background: transparent;
+            display: block;
+            outline: none;
+            color: transparent;
+            cursor: pointer;
+			
+            &:hover, &:focus, &:before {
+            	opacity: 1;
+            }
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "\2022";
+                font-size: 44px;
+                line-height: 20px;
+                color: #fff;
+                opacity: 0.8;
+				transition: 0.2s;
+            }
+        }
+        &.slick-active button:before {
+            color: #3627f4;
+            opacity: 1;
+        }
+    }
+}

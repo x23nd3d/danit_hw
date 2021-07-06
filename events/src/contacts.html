@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты</title>
+	<link rel="stylesheet" href="./css/main.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/slick.min.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a href="/" class="logo navbar__logo">
+				<span class="logo__text">Alin</span>
+				<span class="logo__delta logo__delta_red"></span>
+				<span class="logo__text">Lobod</span>
+				<span class="logo__delta logo__delta_blue"></span>
+			</a>
+			<ul class="nav-menu navbar__nav-menu">
+				<li class="nav-menu__item"><a href="./index.html" class="nav-menu__link">Events</a></li>
+				<li class="nav-menu__item"><a href="./about-me.html" class="nav-menu__link">Обо мне</a></li>
+				<li class="nav-menu__item active"><a href="./contacts.html" class="nav-menu__link">Контакты</a></li>
+				<li class="nav-menu__item"><a href="./discounts.html" class="nav-menu__link">Акции</a></li>
+			</ul>
+			<div class="navbar__buttons">
+				<a href="#popup2" id="show-popup-calendar" class="navbar__btn _calendar">
+					<img class="navbar__icon" src="./img/icon-calendar.png" alt="calendar">
+				</a>
+				<a id="search" href="#popup2" class="show_popup navbar__btn _search">
+					<img class="navbar__icon" src="./img/icon-search.png" alt="search">
+				</a>
+			</div>
+		</div>
+		<div class="overlay_popup" id="popup2">
+			<div class="popup-content">
+				<img src="img/popup-calendar-example.jpg">
+			</div>
+		</div>
+	</nav>
+
+	<header class="header contacts-header">
+		<div class="container">
+			<div class="header__text">
+				<p class="header__text_large">хотите <span class="header__text_medium">знать</span></p>
+				<p class="header__text_medium">обо всех <span class="header__text_large _blue-text">Ивентах</span><span class="header__text_large">?</span></p>
+				<a href="#write-me" id="write-me-btn" class="btn _header-btn contacts-header__btn">напишите мне</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="contacts">
+		<div class="container">
+			<h2 class="heading">Контакты</h2>
+			<div class="contacts__content">
+				<a href="https://www.instagram.com/alinaloboda/" target="_blank" class="contacts__img"></a>
+				<ul class="contacts-list">
+					<li class="contacts-list__item">
+						<a href="viber://chat?number=+380638894586" class="contacts-list__link">
+							<img src="./img/viber-icon.png" alt="viber icon">
+							<p class="contacts-list__text">+380638894586</p>
+						</a>
+					</li>
+					<li class="contacts-list__item">
+						<a href="mailto:insta@events.in.ua" class="contacts-list__link">
+							<img src="./img/google-icon.png" alt="google icon">
+							<p class="contacts-list__text">insta@events.in.ua</p>
+						</a>
+					</li>
+					<li class="contacts-list__item">
+						<a href="tg://resolve?domain=@events_ua_bot" class="contacts-list__link">
+							<img src="./img/telegram-icon.png" alt="telegram icon" class="contacts-list__icon">
+							<p class="contacts-list__text">@events_ua_bot</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="advertising">
+		<div id="advertising-slider" class="advertising__container">
+			<div class="b-advertising _1">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция</p>
+					<p class="b-advertising__text">Место для ивентов и презентаций для вас по скидке Промокод: alinaloboda</p>
+					<a href="https://www.citrus.ua/cehub-rental" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="b-advertising _2">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция сережки в подарок</p>
+					<p class="b-advertising__text">@jewerly.craft При покупке от 600 грн сережки идут в подарок</p>
+					<a href="https://instagram.com/salermstudio?utm_source=ig_profile_share&igshid=zjf9hdkhbanj" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="b-advertising _3">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция «Абсолютное Счастье для волос»</p>
+					<p class="b-advertising__text">@kh_studio_kiev -30% - 20% на все процедуры восстановления и реконструкции волос</p>
+					<a href="https://instagram.com/kh_studio_kiev?utm_source=ig_profile_share&igshid=qohvx2cjxzs1" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="b-advertising _4">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция -20%</p>
+					<p class="b-advertising__text">@salermstudio -20% на все средства по уходу за волосами Промокод: alinaloboda</p>
+					<a href="https://instagram.com/salermstudio?utm_source=ig_profile_share&igshid=zjf9hdkhbanj" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="write-me">
+		<div class="container">
+			<form id="write-me" action="" class="write-me-form">
+				<legend class="write-me-form__title">Заполните Форму</legend>
+				<input type="email" placeholder="e-mail" class="write-me-form__input">
+				<input type="tel" placeholder="+38" class="write-me-form__input">
+				<button class="write-me-form__btn">Напишите мне</button>
+			</form>
+			<div class="write-me__info">
+				<p class="write-me__text">Хотите всегда знать об лучших <span>Ивентах</span>?</p>
+				<img src="./img/red-arrow.png" alt="red arrow">
+			</div>
+		</div>
+	</section>
+
+	<section class="subscribe">
+		<div class="container">
+			<form action="" class="subscribe__form">
+				<legend class="subscribe__title">Подпишитесь на Новости!</legend>
+				<input type="email" class="subscribe__input" placeholder="Email">
+				<button class="subscribe__btn">Отправить</button>
+			</form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__left-col">
+				<a href="/" class="logo footer__logo">
+					<span class="logo__text">Alin</span>
+					<span class="logo__delta logo__delta_red"></span>
+					<span class="logo__text">Lobod</span>
+					<span class="logo__delta logo__delta_blue"></span>
+				</a>
+				<div class="footer__contacts">
+					<a href="tel:+38063894586" class="footer__phone">+38063894586</a>
+					<a href="https://www.instagram.com/alinaloboda/" target="_blank" class="footer__icon">
+						<img src="./img/footer/icon1.png" alt="icon" class="footer__img">
+					</a>
+					<a href="tg://resolve?domain=@events_ua_bot" class="footer__icon">
+						<img src="./img/footer/icon2.png" alt="icon" class="footer__img">
+					</a>
+					<a href="mailto:insta@events.in.ua" class="footer__icon">
+						<img src="./img/footer/icon3.png" alt="icon" class="footer__img">
+					</a>
+				</div>
+			</div>
+			<div class="footer__right-col">
+				<a href="#popup1" class="show_popup btn _red">Хочу Event</a>
+				<p class="footer__copyright"><span>&copy;</span>2019. AlinaLoboda. All rights reserved.</p>
+			</div>
+			<div class="overlay_popup" id="popup1">
+				<div class="popup-content">
+					<div class="event-form popup-form">
+						<form action="" class="header-form__form">
+							<legend class="header-form__title"><span class="header-form__title_bold">Хотите организовать</span>
+								свой <span class="header-form__title_selected">ивент?</span></legend>
+							<input type="text" class="header-form__input" placeholder="Instagram">
+							<input type="tel" class="header-form__input" placeholder="Telephone">
+							<button class="btn _header-btn header-form__btn">Хочу EVENT!</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

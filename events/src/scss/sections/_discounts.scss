@@ -1,0 +1,150 @@
+.discounts {
+	padding: 96px 0 33px 0;
+
+	&__container {
+		max-width: 1186px;
+	}
+
+	&__content {
+		display: grid;
+		grid-template-columns: 305px 305px 305px;
+		align-items: start;
+		justify-content: space-between;
+		margin-top: 180px;
+	}
+
+	.event {
+		width: 300px;
+		margin-bottom: 114px;
+
+		&__img {
+			height: 300px;
+
+			&::after {
+				background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+			}
+		}
+
+		&__title {
+			font-size: 20px;
+			margin-top: 8px;
+		}
+		
+		&__text {
+			display: none;
+		}
+
+		&__readmore {
+			margin: 20px 0 30px 44px;
+		}
+
+		&__goto {
+			display: none;
+		}
+	}
+}
+
+.discounts .event.active {
+	transform: scale(1.2);
+	
+	.event {
+		&__title {
+			font-size: 20px;
+			margin-top: 15px;
+		}
+		
+		&__text {
+			display: block;
+			text-decoration: underline;
+			margin-top: 15px;
+			line-height: 1.5em;
+			font-size: 14px;
+		}
+		
+		&__img::after {
+			opacity: 0;
+		}
+		
+		&__readmore {
+			display: none;
+		}
+		
+		&__goto {
+			display: block;
+			font-weight: 700;
+			color: $color-one;
+			text-decoration: none;
+			text-align: center;
+			border: 2px solid $color-one;
+			padding: 25px 0;
+			margin-top: 28px;
+		}
+	}
+}
+
+.event.b-discount {
+
+	&._1 .event__img {
+		background-image: url(../img/discounts/img-1.png);
+	}
+
+	&._2 .event__img {
+		background-image: url(../img/discounts/img-2.png);
+	}
+
+	&._3 .event__img {
+		background-image: url(../img/discounts/img-3.png);
+	}
+
+	&._4 .event__img {
+		background-image: url(../img/discounts/img-4.png);
+	}
+
+	&._5 .event__img {
+		background-image: url(../img/discounts/img-5.png);
+	}
+
+	&._6 .event__img {
+		background-image: url(../img/discounts/img-6.png);
+	}
+
+	&._7 .event__img {
+		background-image: url(../img/discounts/img-7.png);
+	}
+
+	&._8 .event__img {
+		background-image: url(../img/discounts/img-8.png);
+	}
+
+	&._9 .event__img {
+		background-image: url(../img/discounts/img-9.png);
+	}
+
+	&._10 .event__img {
+		background-image: url(../img/discounts/img-10.png);
+	}
+
+	&._11 .event__img {
+		background-image: url(../img/discounts/img-11.png);
+	}
+
+	&._12 .event__img {
+		background-image: url(../img/discounts/img-12.png);
+	}
+
+	&._13 .event__img {
+		background-image: url(../img/discounts/img-13.png);
+	}
+
+	&._14 .event__img {
+		background-image: url(../img/discounts/img-14.png);
+	}
+
+	&._15 .event__img {
+		background-image: url(../img/discounts/img-15.png);
+	}
+
+	&._16 .event__img {
+		background-image: url(../img/discounts/img-16.png);
+	}
+}

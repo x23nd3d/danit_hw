@@ -1,0 +1,46 @@
+.about{
+
+        &__container{
+            padding:0;
+        }
+
+        &__title{
+            font-size: 36px;
+        }
+
+        &__companies{
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+			padding:0;
+        }
+
+        &__content{
+            padding-bottom: 42px;
+        }
+
+        &__content-2{
+            margin-top:0;
+            padding-bottom: 42px;
+        }
+
+        &__company-description{
+            width: 90%;
+        }
+
+        &__copyright-text{
+            display: none;
+        }
+		        &__copyright{
+            padding:0;
+        }
+    }
+	
+	.hr-line::after{
+    content: '';
+    display: block;
+    margin: 15px auto 0;
+    background-color: #645766;
+    width: 80%;
+    height: 2px;
+	    margin-bottom: 15px;
+        }  

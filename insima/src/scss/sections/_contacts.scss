@@ -1,0 +1,78 @@
+.contacts {
+	padding: 63px 0 43px;
+	background-color: $dark-color;
+	color: #fff;
+
+	&-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-heading {
+		font-size: 44px;
+	}
+
+	&-list {
+		margin-top: 90px;
+	}
+
+	&-icon {
+		width: 27px;
+	}
+
+	&-item {
+		display: flex;
+		margin-bottom: 40px;
+	}
+
+	&-text {
+		font-size: 20px;
+		margin-left: 40px;
+		width: 360px;
+	}
+
+	&-form {
+		display: flex;
+		flex-direction: column;
+
+		&-input {
+			height: 70px;
+			padding: 33px 26px;
+			background-color: transparent;
+			border: 1px solid #fff;
+			margin-bottom: 20px;
+			outline: none;
+			color: #fff;
+			font-size: 17px;
+
+			&::-webkit-input-placeholder {
+				color: #fff;
+			}
+
+			&::-moz-placeholder {
+				color: #fff;
+			}
+			
+			&._input {
+				width: 440px;
+			}
+			
+			&._textarea {
+				padding-top: 20px;
+				font-size: 18px;
+				height: 120px;
+			}
+		}
+		
+		&-btn {
+			padding: 25px 0;
+			background-color: $main-color;
+			border: 1px solid transparent;
+			color: #fff;
+			cursor: pointer;
+			font-size: 20px;
+			font-weight: 700;
+			margin-top: 7px;
+		}
+	}
+}

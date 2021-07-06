@@ -1,0 +1,118 @@
+.events .calendar__content {
+	position: absolute;
+	display: none;
+}
+
+.calendar {
+	position: relative;
+	z-index: 9999;
+
+	&__btn {
+		border: 2px solid $color-two;
+		padding: 23px 106px;
+		color: $color-two;
+		font-size: 28px;
+		font-weight: 700;
+		cursor: pointer;
+		user-select: none;
+
+		&::after {
+			content: '';
+			position: absolute;
+			right: 20px;
+			top: 35px;
+			width: 0;
+			height: 0;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			border-top: 13px solid $color-two;
+		}
+	}
+
+	&__content {
+		background-color: #fbfdfc;
+		width: 100%;
+		top: 100%;
+		left: 0;
+		box-shadow: 0 15px 20px #bebebe;
+		border: 1px solid transparent;
+
+		.month {
+			margin: 55px 33px;
+			display: grid;
+			grid-template-columns: 53px 53px 53px 53px;
+			justify-content: space-between;
+
+			&__item {
+				width: 53px;
+				height: 53px;
+				border-radius: 50%;
+				@include flex-center;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 700;
+				color: rgb(71, 72, 79);
+				cursor: pointer;
+				background-color: transparent;
+				transition: 0.7s;
+			}
+
+			&__item.active {
+				background-color: $color-one;
+				color: #fbfdfc;
+				font-weight: 600;
+			}
+		}
+	}
+
+
+
+	&__bottom-buttons {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 25px;
+	}
+
+	&__bottom-btn {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #cdd3dc;
+		font-weight: 700;
+
+		&._filter {
+			padding: 12px 33px;
+			background-color: #00c6ae;
+			border-radius: 300px;
+			margin-left: 20px;
+			color: rgb(242, 244, 246);
+		}
+	}
+}
+
+.month-calendar {
+	margin: 0 15px 20px;
+	margin-bottom: 20px;
+	border-top: 1px solid #cdd3dc;
+	color: rgb(43, 46, 73);
+	border-spacing: 5px 20px;
+	border-collapse: separate;
+
+	th {
+		font-weight: 700;
+		text-transform: uppercase;
+		width: calc(100% / 7);
+		padding-top: 7px;
+		opacity: 0.3;
+	}
+
+	td {
+		padding: 5px 0;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	&__other-days {
+		opacity: 0.5;
+	}
+}

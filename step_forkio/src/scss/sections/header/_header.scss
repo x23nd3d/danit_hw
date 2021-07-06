@@ -1,0 +1,39 @@
+.header{
+    background-image: url("../img/header-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header{
+    &__title{
+		font-family:$main-font-1;
+        text-align: center;
+        font-size: 82px;
+        color:#fff;
+        font-weight: 700;
+        margin:0;
+        padding-top: 60px;
+        padding-bottom:18px;
+    }
+
+    &__slogan{
+        text-align:center;
+        padding-bottom:18px;
+        color: #8d81ac;
+        font-family: $main-font-2;
+        font-size: 30px;
+    }
+
+    &__version{
+        text-align: center;
+        color: #848e97;
+        font-family: $main-font-1;
+        font-size: 16px;
+    }
+
+    &__container{
+        padding-bottom: 487px;
+    }
+}

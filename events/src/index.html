@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Events</title>
+	<link rel="stylesheet" href="./css/main.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/slick.min.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a href="/" class="logo navbar__logo">
+				<span class="logo__text">Alin</span>
+				<span class="logo__delta logo__delta_red"></span>
+				<span class="logo__text">Lobod</span>
+				<span class="logo__delta logo__delta_blue"></span>
+			</a>
+			<ul class="nav-menu navbar__nav-menu">
+				<li class="nav-menu__item active"><a href="./index.html" class="nav-menu__link">Events</a></li>
+				<li class="nav-menu__item"><a href="./about-me.html" class="nav-menu__link">Обо мне</a></li>
+				<li class="nav-menu__item"><a href="./contacts.html" class="nav-menu__link">Контакты</a></li>
+				<li class="nav-menu__item"><a href="./discounts.html" class="nav-menu__link">Акции</a></li>
+			</ul>
+			<div class="navbar__buttons">
+				<a href="#calendar-button" id="calendar-icon" class="navbar__btn _calendar">
+					<img class="navbar__icon" src="./img/icon-calendar.png" alt="calendar">
+				</a>
+				<a id="search-events" href="#events" class="navbar__btn _search">
+					<img class="navbar__icon" src="./img/icon-search.png" alt="search">
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<header id="events-want-event-form" class="header _events-header">
+		<div id="events-header-bg"></div>
+		<div class="container">
+			<div class="header__text">
+				<p class="header__text_large">я знаю,</p>
+				<p class="header__text_medium">где самые лучшие <span class="_blue-text">events</span>!</p>
+				<p class="header__text_small _insta">@alinaloboda</p>
+				<div class="header__hashtag hashtag">
+					<div class="hashtag__background">
+						<p class="hashtag__text">#blogerzone event</p>
+					</div>
+				</div>
+			</div>
+			<div class="event-form header-form">
+				<form action="" class="header-form__form">
+					<legend class="header-form__title"><span class="header-form__title_bold">Хотите организовать</span>
+						свой <span class="header-form__title_selected">ивент?</span></legend>
+					<input type="text" class="header-form__input" placeholder="Instagram">
+					<input type="tel" class="header-form__input" placeholder="Telephone">
+					<button class="btn _header-btn header-form__btn">Хочу EVENT!</button>
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<section class="top-events">
+		<h2 class="heading">TOP Events</h2>
+		<div id="top-gallery" class="top-events__content">
+			<div class="event _1">
+				<div class="event__img"></div>
+				<div class="event__description">
+					<h3 class="event__title">Mamafesta</h3>
+					<p class="event__text">
+						<span class="event__info-name">Дата:</span>
+						30.03.2019 о 14:00
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Место:</span>
+						Песто Кафе На Осокорках
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Про ивент:</span>
+						Встреча для мама и будущих мам, что хотят весело провести время с детьми.
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Организатор:</span>
+						Аня 0638894586
+					</p>
+				</div>
+				<a href="#" class="event__readmore">Читать больше ></a>
+				<a href="#" target="_blank" class="event__btn">Бронь</a>
+			</div>
+			<div class="event _2">
+				<div class="event__img"></div>
+				<div class="event__description">
+					<h3 class="event__title">Презентация сайта</h3>
+					<p class="event__text">
+						<span class="event__info-name">Дата:</span>
+						18.05 на 16:00
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Место:</span>
+						ЦеХАБ ул. Хрещатик, 29
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Закрытая вечеринка:</span>
+						вход по приглашению, Организатор сам выбирает список  блогеров
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Организатор:</span>
+						Алина 0638894586
+					</p>
+				</div>
+				<a href="#" class="event__readmore">Читать больше ></a>
+				<a href="https://instagram.com/alinaloboda?utm_source=ig_profile_share&igshid=4yjwexw4iq2i" target="_blank" class="event__btn">Бронь</a>
+			</div>
+			<div class="event _3">
+				<div class="event__img"></div>
+				<div class="event__description">
+					<h3 class="event__title">New Communication</h3>
+					<p class="event__text">
+						<span class="event__info-name">Дата:</span>
+						27.05 18:00-22:00
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Место:</span>
+						Киев, НСК «Олимпийский»
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Закрытый ивент:</span>
+						Первая Всеукраинская нетворкинг-платформа, сообщество с максимальной концентрацией успешных людей.
+					</p>
+				</div>
+				<a href="#" class="event__readmore">Читать больше ></a>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkhIVBvPNkEymWBP9BDiZUm7xGTWLshub_5AhjTzbNKG8-8w/viewform" target="_blank" class="event__btn">Бронь</a>
+			</div>
+			<div class="event _4">
+				<div class="event__img"></div>
+				<div class="event__description">
+					<h3 class="event__title">Mamafesta</h3>
+					<p class="event__text">
+						<span class="event__info-name">Дата:</span>
+						25.05 в 10.00
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Место:</span>
+						Planeta Kino в РЦ БЛОКБАСТЕР
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Ивент для мам и детей:</span>
+						Премьера фильма Алладин в 2х залах
+					</p>
+				</div>
+				<a href="#" class="event__readmore">Читать больше ></a>
+				<a href="#" target="_blank" class="event__btn">Бронь</a>
+			</div>
+			<div class="event _5">
+				<div class="event__img"></div>
+				<div class="event__description">
+					<h3 class="event__title">Fun Family Fest</h3>
+					<p class="event__text">
+						<span class="event__info-name">Дата:</span>
+						8-9.06 начало в 11:00
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Место:</span>
+						Пр. Генерала Ватутина 2т, Sky Family Fest
+					</p>
+					<p class="event__text">
+						<span class="event__info-name">Ивент для мам и детей:</span>
+						Open air праздник для всей семьи
+					</p>
+				</div>
+				<a href="#" class="event__readmore">Читать больше ></a>
+				<a href="#" target="_blank" class="event__btn">Бронь</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="advertising">
+		<div id="advertising-slider" class="advertising__container">
+			<div class="b-advertising _1">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция</p>
+					<p class="b-advertising__text">Место для ивентов и презентаций для вас по скидке Промокод: alinaloboda</p>
+					<a href="https://www.citrus.ua/cehub-rental" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="b-advertising _2">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция сережки в подарок</p>
+					<p class="b-advertising__text">@jewerly.craft При покупке от 600 грн сережки идут в подарок</p>
+					<a href="https://instagram.com/salermstudio?utm_source=ig_profile_share&igshid=zjf9hdkhbanj" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="b-advertising _3">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция «Абсолютное Счастье для волос»</p>
+					<p class="b-advertising__text">@kh_studio_kiev -30% - 20% на все процедуры восстановления и реконструкции волос</p>
+					<a href="https://instagram.com/kh_studio_kiev?utm_source=ig_profile_share&igshid=qohvx2cjxzs1" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="b-advertising _4">
+				<div class="b-advertising__img"></div>
+				<div class="b-advertising__details">
+					<p class="b-advertising__title">Акция -20%</p>
+					<p class="b-advertising__text">@salermstudio -20% на все средства по  уходу за волосами Промокод: alinaloboda</p>
+					<a href="https://instagram.com/salermstudio?utm_source=ig_profile_share&igshid=zjf9hdkhbanj" target="_blank" class="b-advertising__btn">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="events" class="events">
+		<div class="container">
+			<h2 class="heading">Events</h2>
+			<div class="events__filters">
+				<div class="calendar">
+					<div id="calendar-button" class="calendar__btn">Calendar</div>
+					<div id="full-calendar" class="calendar__content">
+						<ul class="month">
+							<li class="month__item" data-month="0">jan</li>
+							<li class="month__item" data-month="1">feb</li>
+							<li class="month__item" data-month="2">mar</li>
+							<li class="month__item" data-month="3">apr</li>
+							<li class="month__item" data-month="4">may</li>
+							<li class="month__item" data-month="5">jun</li>
+							<li class="month__item" data-month="6">jul</li>
+							<li class="month__item" data-month="7">aug</li>
+							<li class="month__item" data-month="8">sep</li>
+							<li class="month__item" data-month="9">oct</li>
+							<li class="month__item" data-month="10">nov</li>
+							<li class="month__item" data-month="11">dec</li>
+						</ul>
+						<table id="calendar" class="month-calendar"></table>
+						<div class="calendar__bottom-buttons">
+							<a href="#" id="calendar-cancel" class="calendar__bottom-btn">cancel</a>
+							<a href="#" id="calendar-filter" class="calendar__bottom-btn _filter">ok</a>
+						</div>
+					</div>
+				</div>
+				<div class="events-filter _events">
+					<div id='events-filter' class="events-filter__btn">Events</div>
+					<ul id='events-filter-list' class="events-filter__list">
+						<li class="events-filter__item">Для мам</li>
+						<li class="events-filter__item">Приватные ивенты</li>
+						<li class="events-filter__item">Презентации</li>
+						<li class="events-filter__item">Открытие ресторанов/ салонов</li>
+						<li class="events-filter__item">Выставки</li>
+						<li class="events-filter__item">Для Блогеров</li>
+						<li class="events-filter__item">Другое</li>
+					</ul>
+				</div>
+			</div>
+			<div id="full-gallery" class="events__content">
+				<div class="event _1">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча блогеров</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">16.03 на 12:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Ресторан Моменты на Русановке
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Закрытая вечеринка:</span>
+							вход по приглашению, Организатор сам выбирает список блогеров
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Алина 0638894586
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://instagram.com/i___helen?utm_source=ig_profile_share&igshid=i2649z8z9s7d" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _2">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча блогеров</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">05.05 на 12:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Красивое и атмосферное место на Львовской площади
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Закрытая вечеринка:</span>
+							вход по приглашению, Организатор сам выбирает список блогеров
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Лена, 0952282504
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://www.instagram.com/i___helen/?utm_source=ig_profile_share&amp&igshid=i2649z8z9s7d" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _3">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча для мам ГВ</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">07.05</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Днепровская набережная, 33
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Встреча для мам:</span>
+							Завершение ГВ без боли для мамы и малыша
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							<span class="event__info">Оля, 0932465429</span>
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://www.instagram.com/mamamozhetpozniaky/?utm_source=ig_profile_share&amp&igshid=3qoorsy6zjao" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _4">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча для мам</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">11.05</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Какао блюз, ул.Григоренко 22/20
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Каждую субботу по пред записи на встречу мастер-класс про интуитивному рисованию
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Оля 0932465429
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://www.instagram.com/mamamozhetpozniaky/?utm_source=ig_profile_share&amp&igshid=3qoorsy6zjao" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _5">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Английский для мам</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">13.05</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Studio Cafe ул. Урловская, 11а
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Каждый понедельник и четверг по пред записи на встречу
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Оля 0932465429
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://www.instagram.com/mamamozhetpozniaky/?utm_source=ig_profile_share&amp&igshid=3qoorsy6zjao" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _6">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Английский для мам</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">16.05</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Studio Cafe ул. Урловская, 11а
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Каждый понедельник и четверг по пред записи на встречу
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Оля 0932465429
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://www.instagram.com/mamamozhetpozniaky/?utm_source=ig_profile_share&amp&igshid=3qoorsy6zjao" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _7">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Презентация сайта</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">18.05 на 16:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							ЦеХАБ ул. Хрещатик, 29
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Закрытая вечеринка:</span>
+							вход по приглашению, Организатор сам выбирает список блогеров
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Алина 0638894586
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://instagram.com/alinaloboda?utm_source=ig_profile_share&igshid=4yjwexw4iq2i" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _8">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча для мам</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">25.05</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Какао блюз, ул.Григоренко 22/20
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Каждую субботу по пред записи на встречу мастер-класс про интуитивному рисованию
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Оля 0932465429
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://www.instagram.com/mamamozhetpozniaky/?utm_source=ig_profile_share&amp&igshid=3qoorsy6zjao" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _9">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">New Communication</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">27.05 18:00-22:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Киев, НСК «Олимпийский»
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Закрытый ивент:</span>
+							Первая Всеукраинская нетворкинг-платформа, сообщество с максимальной концентрацией успешных людей.
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Алина 0638894586
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdkhIVBvPNkEymWBP9BDiZUm7xGTWLshub_5AhjTzbNKG8-8w/viewform" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _10">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Instagram Workshop</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">31.05 12:00-17:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Киев, Zinco Rooftop Hub
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Закрытый ивент:</span>
+							Образовательное мероприятие по Instagram с работающими механизмами от лидеров
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Мария, + 380 (063) 345-8506
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://blogger4event.com/instagramworkshop/" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _11">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча Блогеров</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">22.05 на 19:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							ЦеХАБ ул. Хрещатик 29
+						</p>
+						<p class="event__text  _party-type">
+							<span class="event__info-name">Презентация:</span>
+							вход по записи, Организатор сам выбирает список блогеров
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://instagram.com/i___helen?utm_source=ig_profile_share&igshid=i2649z8z9s7d" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _12">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Mamafesta</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">25.05 в 10:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Planeta Kino в РЦ БЛОКБАСТЕР
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Премьера фильма Алладин в 2х залах
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="#" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _13">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Встреча для мам</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">15.05</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							ТРЦ NEW WAY розважальний центр Дитяча планета Вул. Вербицького,1
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Каждую субботу по пред записи на встречу мастер-класс про интуитивному рисованию
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Организатор:</span>
+							Оля 0932465429
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="https://instagram.com/mamamozhetpozniaky?utm_source=ig_profile_share&igshid=3qoorsy6zjao" target="_blank" class="event__btn">Бронь</a>
+				</div>
+				<div class="event _14">
+					<div class="event__img"></div>
+					<div class="event__description">
+						<h3 class="event__title">Fun Family Fest</h3>
+						<p class="event__text">
+							<span class="event__info-name">Дата:</span>
+							<span class="_date">8-9.06 начало в 11:00</span>
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Место:</span>
+							Пр. Генерала Ватутина 2т, Sky Family Fest
+						</p>
+						<p class="event__text">
+							<span class="event__info-name">Ивент для мам и детей:</span>
+							Open air праздник для всей семьи
+						</p>
+					</div>
+					<a href="#" class="event__readmore">Читать больше ></a>
+					<a href="" target="_blank" class="event__btn">Бронь</a>
+				</div>
+			</div>
+			<a href="#" id="load-more-events" class="load-more-btn active">Показать еще</a>
+			<a href="#" id="roll-up-events" class="roll-up-btn">Свернуть</a>
+		</div>
+	</section>
+
+	<section class="insta-gallery">
+		<div class="container">
+			<div id="insta-gallery" class="insta-photos">
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-1.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-2.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-3.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-4.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-1.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-2.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-3.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+				<div class="insta-photos__item">
+					<img src="./img/instagram/img-4.png" alt="Instagram photo" class="insta-photos__img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="subscribe">
+		<div class="container">
+			<form action="" class="subscribe__form">
+				<legend class="subscribe__title">Подпишитесь на Новости!</legend>
+				<input type="email" class="subscribe__input" placeholder="Email">
+				<button class="subscribe__btn">Отправить</button>
+			</form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__left-col">
+				<a href="/" class="logo footer__logo">
+					<span class="logo__text">Alin</span>
+					<span class="logo__delta logo__delta_red"></span>
+					<span class="logo__text">Lobod</span>
+					<span class="logo__delta logo__delta_blue"></span>
+				</a>
+				<div class="footer__contacts">
+					<a href="tel:+38063894586" class="footer__phone">+38063894586</a>
+					<a href="https://www.instagram.com/alinaloboda/" target="_blank" class="footer__icon">
+						<img src="./img/footer/icon1.png" alt="icon" class="footer__img">
+					</a>
+					<a href="tg://resolve?domain=@events_ua_bot" class="footer__icon">
+						<img src="./img/footer/icon2.png" alt="icon" class="footer__img">
+					</a>
+					<a href="mailto:insta@events.in.ua" class="footer__icon">
+						<img src="./img/footer/icon3.png" alt="icon" class="footer__img">
+					</a>
+				</div>
+			</div>
+			<div class="footer__right-col">
+				<a href="#events-want-event-form" id="events-want-event-btn" class="btn _red">Хочу Event</a>
+				<p class="footer__copyright"><span class="footer__copyright_symbol">&copy;</span>2019. AlinaLoboda. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/resize-slider.js"></script>
+	<script src="js/cofg-resize-slider.js"></script>
+
+</body>
+
+</html>

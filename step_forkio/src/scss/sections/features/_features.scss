@@ -1,0 +1,97 @@
+.features {
+    background-color: #f4f4f4;
+    padding-bottom: 33px; // for test
+    padding-left: 90px;
+    padding-top: 54px;
+    display: flex;
+}    
+
+
+.features {
+    &__advantages{
+margin: 0;
+            }
+    &__advantage{
+        display: flex;
+        align-items: center;
+        margin-bottom: 34px;
+            }
+            &__advantage-center{
+                margin-left: 34px;
+                width: 50%;
+                      }
+                      &__advantage-img-center{
+                        width: 111px;
+                        height: 84px;
+                        @include flex-all-center;
+}
+&__advantage-img-end{
+    width: 111px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+    &__advantage-img-1{
+background-image: url("../img/features-icons/icon-1.png");
+width: 111px;
+height: 64px;
+    }
+    &__advantage-img-2{
+        background-image: url("../img/features-icons/icon-2.png");
+        width: 90px;
+        height: 80px;
+            }
+            &__advantage-img-3{
+                background-image: url("../img/features-icons/icon-3.png");
+                width: 60px;
+                height: 84px;
+                    }
+                    &__advantage-img-4{
+                        background-image: url("../img/features-icons/icon-4.png");
+                        width: 71px;
+                        height: 71px;
+                            }
+    &__advantage-slogan{
+        color: $advantage-slogan-color;
+        font-family: $main-font-1;
+        font-size: 16px;
+        font-weight: 400;
+            }
+            &__advantage-description{
+                color: $advantage-description-color;
+                font-family: $main-font-1;  
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                    }
+                    &__example{
+ 
+                        display: flex;
+                        flex-wrap: wrap;
+                            }
+                    &__example-slogan{
+                        color: #8d81ac;
+                        font-family: $main-font-1;
+                        font-size: 48px;
+                        font-weight: 700;
+                        margin-top: 0;
+                            }
+                            &__example-slogan::before{
+                                content: '<';
+                                margin: 0;
+                                    }
+                                    &__example-slogan::after{
+                                        content: '>';
+                                        margin: 0;
+                                            }
+                            &__example-img{
+                                background-image: url(../img/features-icons/editor.png);
+                                width: 717px;
+                                height: 498px;
+                                    }
+
+}
+
+
+

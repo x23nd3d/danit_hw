@@ -1,0 +1,243 @@
+/* Connect Custom Fonts */
+@font-face {
+    font-family: 'Arimo',  sans-serif;
+    src: url('../fonts/Arimo.ttf');
+    }
+    
+
+body {
+    margin:0 auto;
+    font-family: 'Arimo',  sans-serif;
+background-color:  rgb(55, 71, 101);
+}
+
+
+.container {
+
+
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+
+.table-head-titles {
+
+    height: 112px;
+}
+
+.main-table {
+width: 1365px;
+text-transform: uppercase;
+margin: 0 auto;
+box-shadow: 1px 1px 19px 5px;
+    border-collapse: collapse;
+    border-spacing: 10px;
+
+}
+
+
+
+.main-head-title {
+    
+    text-align: center;
+background-color:  #fafafa;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+width: 198px;
+line-height: 0.3;
+font-family: 'Arimo',  sans-serif;
+color:  #484848;
+font-size: 14px;
+font-weight: 700;
+
+}
+
+.large-title {
+
+    font-family: 'Arimo',  sans-serif;
+color:  #484848;
+font-size: 20px;
+font-weight: 700;
+
+}
+
+.head-titles-gray {
+
+
+
+line-height: 1.3;
+    font-family: 'Arimo',  sans-serif;
+    color:  #484848;
+    font-size: 20px;
+    font-weight: 700;
+background-color:  #e3e3e3;
+width: 157px;
+
+}
+
+.head-titles {
+
+
+    line-height: 1.3;
+    font-family: 'Arimo',  sans-serif;
+    color:  #484848;
+    font-size: 20px;
+    font-weight: 700;
+background-color:  #f2f2f2;
+width: 157px;
+}
+
+.main-content-title-1 {
+line-height: 1;
+    font-family: 'Arimo',  sans-serif;
+    color:  #fff;
+    font-size: 24px;
+    font-weight: 700;
+   
+word-wrap: normal;
+background-color:  #89c331;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+width: 198px;
+
+}
+
+.content-title-gray {
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.27);
+background-color:  #e3e3e3;
+width: 157px;
+
+}
+.content-title {
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.27);
+    background-color:  #f2f2f2;
+    width: 157px;
+
+}
+
+.content-sections {
+    height: 166px;
+
+}
+
+.content-sections:last-child {
+
+    border-bottom: none;
+}
+
+
+.main-content-title-2 {
+    line-height: 1;
+    font-family: 'Arimo',  sans-serif;
+    color:  #fff;
+    font-size: 24px;
+    font-weight: 700;
+
+    background-color:  #f04a56;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+width: 198px;
+
+}
+
+.main-content-title-3 {
+    line-height: 1;
+    font-family: 'Arimo',  sans-serif;
+    color:  #fff;
+    font-size: 24px;
+    font-weight: 700;
+
+    background-color:  #20807c;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+width: 198px;
+
+}
+
+.content-sections {
+
+    text-align: center;
+}
+
+.large-price {
+
+  font-family: 'Arimo-Italic',  sans-serif;
+color:  #ffffff;
+font-size: 36px;
+font-weight: 700;
+
+}
+
+.small-price {
+position: relative;
+bottom: 13px;
+right: 7px;
+    font-family: 'Arimo',  sans-serif;
+color:  #ffffff;
+font-size: 18px;
+font-weight: 700;
+
+}
+
+.price-description {
+position: relative;
+bottom: 8px;
+right: 5px;
+    font-family: 'Arimo',  sans-serif;
+color:  #ffffff;
+font-size: 14px;
+font-weight: 700;
+
+}
+
+.fas {
+
+    font-family: 'FontAwesome';
+color:  #848484;
+font-size: 24px;
+font-weight: 400;
+
+}
+.far {
+    font-family: 'FontAwesome';
+color:  #848484;
+font-size: 24px;
+font-weight: 400;
+
+}
+
+.head-paragraph {
+
+   margin: 3px; 
+}
+
+.black-btn {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+cursor: pointer;
+color: #fff;
+    border-radius: 5px;
+background-color:  #484848;
+padding: 16px 40px;
+box-shadow: inset 0px -6px 6px 0px rgb(0, 0, 0, 0.55);
+box-sizing: border-box;
+
+
+}
+
+.black-btn:hover {
+    background-color:  #202020;
+    transition: 0.5s;
+}
+
+
+
+.main-title {
+
+    margin-top: 18px;
+}
+
+.price-position {
+
+    position: relative;
+    bottom: 5px;
+}

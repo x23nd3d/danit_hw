@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap')
+
+body {
+    margin: 0 auto;
+}
+
+p, h3, a {
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 16px;
+    line-height: 26px;
+    /*here it is important as reset.css set default another font*/
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(54, 173, 173);
+}
+
+ul {
+    margin: 0;
+}
+
+h3 {
+    font-weight: 900;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.description {
+    color: #373737;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.header-menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 90px;
+    padding: 20px 35px;
+    font-weight: bold;
+    color: rgb(54, 173, 173);
+    letter-spacing: 3px;
+}
+
+.header-menu:hover {
+    background-color: rgba(54, 173, 173, 0.082);
+}
+
+
+.center {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: rgb(207, 207, 207, 0.2);
+    padding-bottom: 80px;
+}
+
+.main-btn {
+    color: #fff;
+    padding: 18px 40px;
+    background-color: rgb(64, 199, 129);
+    border-radius: 3px;
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background: rgb(53, 167, 110);
+}
+.btn {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 35px;
+    text-align: right;
+    padding-right: 40px;
+    font-weight: 900;
+    color: #373737;
+    letter-spacing: 1.4px;
+    margin-bottom: 25px;
+}

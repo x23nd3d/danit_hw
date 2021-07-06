@@ -1,0 +1,82 @@
+.our-doctors {
+	padding: 62px 0 45px;
+	background-color: $bgc-light;
+	text-align: center;
+	
+	&-content {
+		margin-top: 58px;
+		@include flex-row-between;
+	}
+	
+	&-item {
+		position: relative;
+		width: 550px;
+		height: 565px;
+		background-color: #fff;
+		text-align: left;
+		box-shadow: 2px 0 8px #cccdcf;
+	}
+	
+	&-img {
+		height: 365px;
+		background: center/cover no-repeat;
+		
+		&._1 {
+			background-image: url(../img/doctors/doctor-1.png);
+		}
+		
+		&._2 {
+			background-image: url(../img/doctors/doctor-2.png);
+		}
+	}
+	
+	&-info {
+		padding: 28px 84px 48px 35px;
+	}
+	
+	&-name {
+		font-size: 20px;
+		font-weight: 700;
+		color: $dark-color;
+		margin-bottom: 15px;
+	}
+	
+	&-post {
+		font-size: 20px;
+		color: $text-color;
+		margin-bottom: 26px;
+	}
+	
+	&-text {
+		font-size: 17px;
+		line-height: 1.5em;
+	}
+	
+	&-item-btn {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		border: 2px solid $main-color;
+		
+		&-elem {
+			position: absolute;
+			top: 10px;
+			left: 19px;
+			display: block;
+			width: 2px;
+			height: 20px;
+			background-color: $main-color;
+			
+			&._2 {
+				transform: rotate(90deg);
+			}
+		}
+	}
+	
+	&-btn {
+		margin-top: 45px;
+	}
+}

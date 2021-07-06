@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'Myriad';
+    src: url('../fonts/Myriad.ttf');
+  }
+
+li {
+
+    list-style: none;
+}
+body {
+
+    margin: 0 auto;
+padding: 0;
+}
+
+.container {
+
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header-logo-text {
+    
+margin: 61px 0;
+padding: 0;
+font-family: 'Myriad';
+color:  #000000;
+font-size: 80px;
+font-weight: 400;
+}
+
+.header-logo-visuality {
+    font-family: 'Myriad';
+    color:  #4bcaff;
+    font-size: 80px;
+    font-weight: 400;
+
+
+}
+
+
+.main-menu {
+ 
+    margin-top: 45px;
+    background-color:  #35444f;
+    width: 1280px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+
+    padding: 19px;
+    color: white; 
+    font-family: 'Myriad';
+font-size: 24px;
+font-weight: 400;
+margin-right: 84px;
+border-left:  1px solid transparent ; 
+border-right: 1px solid transparent;
+transition: 0.2s;
+
+}
+/* 
+@keyframes menu-item {
+    15% {
+
+      transform: translateX(9px);
+    }
+    30% {
+
+      transform: translateX(-9px);
+    }
+    40% {
+
+      transform: translateX(6px);
+    }
+    50% {
+ 
+      transform: translateX(-6px);
+    }
+    65% {
+
+      transform: translateX(3px);
+    }
+    100% {
+
+      transform: translateX(0);
+    }
+  } */
+
+.menu-item:hover {
+    text-shadow: 1px 1px #485863;
+    border-left: 1px solid #818181  ; 
+    border-right:  1px solid #818181 ;
+    background-color:  #222f3a;
+
+/* box-shadow: currentColor;
+        animation: menu-item 0.9s ease-out;
+
+         animation-iteration-count: 1;*/
+
+} 
+
+.menu-item-link {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar-menu {
+
+display: flex;
+flex-flow: column wrap;
+flex-shrink: 0;
+
+    margin-top: 51px;
+border: #000 1px solid;
+    width: 344px;
+height: 395px;
+
+
+
+
+}
+
+.container-flex {
+width: 100%;
+height: auto;
+    display: flex;
+    flex-direction: row wrap; 
+    flex-basis: 50%;
+}
+
+
+.sidebar-item {
+padding: 23px 44px;
+font-family: 'Myriad';
+color:  #485863;
+font-size: 26.99px;
+font-weight: 400;
+transition: 0.2s;
+
+
+}
+
+.sidebar-item:hover   {
+
+    background-color: #dcdcdc;
+}
+
+
+.sidebar-item-link {
+    display: inline-block;
+ color: #485863;
+ text-decoration: none;
+    }
+
+    .sidebar-item-link:hover   {
+        text-shadow:
+        1px 1px #485863;
+transition: 0.4s;
+      transform: translateX(9%);
+        }
+        
+
+.content {
+
+    border: 1px solid black;
+    width: 882px;
+height: 529px;
+margin: 51px 52px;
+margin-bottom: 0;
+
+
+
+
+}
+
+.content-img {
+margin: 75px 297px; 
+    width: 320px;
+    height: 381px;
+    transition: 0.3s;
+
+}
+
+.content-img:hover { 
+
+    transform: scale(1.2);
+}
+
+
+.top-text {
+
+    font-family: 'Myriad';
+color:  #2c2b2b;
+font-size: 18px;
+font-weight: 400;
+width: 67%;
+text-align: justify;
+float: right;
+margin-top: 50px;
+
+
+}
+
+
+.top-text-2 {
+
+    font-family: 'Myriad';
+color:  #2c2b2b;
+font-size: 18px;
+font-weight: 400;
+width: 67%;
+text-align: justify;
+float: right;
+margin-bottom: 51px;
+
+
+}
+
+/* .top-text:last-child {
+
+    margin-top: 51px;
+} */
+
+/* .footer {
+/* margin-top: 51px;
+    width: 1280px;
+height: 69px;
+
+background-color: #b5b8bb; 
+
+
+
+} */
+
+
+.footer {
+    width: 1280px;
+height: 69px;
+
+background-color: #b5b8bb;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-menu {
+
+    display: flex;
+    align-items: center;
+   
+
+
+
+
+}
+
+
+.flex-end {
+margin-right: 15px;
+flex:1;
+    font-family: 'Myriad';
+  color:  #010000;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+     
+  
+  
+  
+  }
+.footer-menu-link {
+    color: #0c1927;
+ text-decoration: none;
+
+
+}
+
+.footer-menu-item {
+    margin-left: 25px;
+    font-family: 'Myriad';
+    color:  #0c1927;
+    font-size: 28px;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+
+/* list-style: none;
+padding: 0;
+margin: 0; */
+
+
+}
+
+.footer-menu-item:hover {
+
+    transition: .3s;
+    color:#3181a6;
+    border-bottom: 1px solid #3181a6;
+
+}

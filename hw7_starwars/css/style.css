@@ -1,0 +1,81 @@
+body, html
+{
+	width: 100%;
+	height: 100%;
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: rgb(238, 195, 6);
+	background-color: #000;
+	overflow: hidden;
+}
+.strech {
+    padding-top: 3%;
+    transform: scaleY(1.7);
+    transform-origin: 0 0;
+
+}
+
+
+.strech-2 {
+    transform: scaleY(1.7);
+    transform-origin: 0 0;
+    display: inline-block;
+    padding-top: 12%;
+
+}
+
+.center {
+
+  
+    transform: scaleY(1.7);
+    transform-origin: 0 0;
+    text-align: center;
+}
+
+.center:nth-child(2n) {
+
+    padding-top: 3%;
+    
+    padding-bottom: 3%;
+}
+
+#titles
+{
+	position: absolute;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 550%;
+	font-weight: bold;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 98%;
+	transform: perspective(300px) rotateX(15deg);
+}
+#titles:after
+{
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	pointer-events: none;
+}
+#titlecontent
+{
+	position: absolute;
+	top: 100%;
+	animation-name: scroll;
+	animation-duration: 30s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: 0%; }
+}

@@ -1,0 +1,37 @@
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	width: 296px;
+	padding: 25px 0;
+	border: 1px solid transparent;
+	outline: none;
+	color: #fff;
+	font-family: $main-font;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.4s;
+
+	&._red {
+		background-color: $color-one;
+		font-weight: 700;
+
+		&:hover {
+			background-color: #a11010;
+		}
+	}
+
+	&._header-btn {
+		background-color: $color-two;
+		box-shadow: 15px 45px 20px 10px rgba(0, 0, 0, 0.4);
+	}
+}
+
+.header-form__btn:hover {
+	background-color: #7fcef6;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.about-me-header__btn:hover, .contacts-header__btn:hover {
+	background-color: #0000ff;
+}

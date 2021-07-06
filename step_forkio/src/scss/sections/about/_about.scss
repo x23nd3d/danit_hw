@@ -1,0 +1,99 @@
+.about {
+
+    background-image: url("../img/about/testmonials-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   // background-attachment: fixed;
+
+    // padding-bottom: 200px; // for test
+
+}    
+
+.about {
+    &__title{
+        padding-top: 98px;
+        margin-bottom: 95px;
+        @include regular-title;
+    }
+    &__companies{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding-bottom: 121px;
+    }
+    &__content{
+        display: grid;
+        justify-items: center;
+    }
+    &__content-2{
+        display: grid;
+        justify-items: center;
+        margin-top: 113px;
+    }
+    &__company-img-1{
+        background-image: url("../img/about/about-logo-1.png");
+        width: 165px;
+        height: 43px;
+        margin-bottom: 37px;
+    }
+    &__company-img-2{
+        background-image: url("../img/about/about-logo-2.png");
+        width: 148px;
+        height: 50px;
+        margin-bottom: 37px;
+    }
+    &__company-img-3{
+        background-image: url("../img/about/about-logo-3.png");
+        width: 64px;
+        height: 64px;
+        margin-bottom: 28px;
+        // background-image: linear-gradient(to top, #fea20f 0%, #f9c229 100%);
+    }
+    &__company-img-4{
+        background-image: url("../img/about/about-logo-4.png");
+        width: 225px;
+        height: 24px;
+        margin-bottom: 37px;
+    }
+    &__company-img-5{
+        background-image: url("../img/about/about-logo-5.png");
+        width: 166px;
+        height: 34px;
+        margin-bottom: 32px;
+    }
+    &__company-img-6{
+        background-image: url("../img/about/about-logo-6.png");
+        width: 108px;
+        height: 34px;
+        margin-bottom: 32px;
+    }
+    &__company-description{
+        width: 75%;
+    @include about-description;
+    padding: 0;
+    }
+    &__container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin: 0 auto;
+        }
+
+        &__copyright{
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 200px;
+            opacity: 0.8;
+
+                }   
+}
+
+
+.hr-line::after{
+    content: '';
+    display: block;
+    margin: 15px auto 0;
+    background-color: #645766;
+    width: 680px;
+    height: 2px;
+        }  

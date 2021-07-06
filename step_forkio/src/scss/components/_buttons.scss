@@ -1,0 +1,103 @@
+.download__btn--big {
+    background-color: $main-color-dark;
+    border-radius: 44px;
+    font-family: $main-font-1;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+	padding: 15px 50px;
+	border: 1px solid transparent;
+	                    transition: all .4s;
+}
+
+.download__btn--big:hover {
+        background-color: $main-bg-color;
+        border: 1px solid $main-color-dark;
+        color: $main-color-dark;
+
+}
+
+.content {
+    &__btn{
+        display: inline-block;
+    background-color: #ffffff24;
+    border-radius: 44px;
+    font-family: $main-font-1;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px 50px;
+    margin-top: 40px;
+	                    transition: all .4s;
+        }
+        &__btn:hover{
+            color: #93858e;
+            background-color: #c8c3c8;
+            transition: all .4s;
+            }
+
+        &__btn-first{
+            display: inline-block;
+        background-color: #ffffff24;
+        border-radius: 44px;
+        font-family: $main-font-1;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 15px 50px;
+        margin-top: 62px;
+		                    transition: all .4s;
+            }
+            &__btn-first:hover{
+                color: #93858e;
+                background-color: #c8c3c8;
+                transition: all .4s;
+                }
+            &__btn-selected{
+                display: inline-block;
+            background-color: #ffffff24;
+            border-radius: 44px;
+            font-family: $main-font-1;
+            font-size: 15px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 15px 50px;
+            margin-top: 70px;
+			                    transition: all .4s;
+                }
+                &__btn-selected:hover{
+                    color: #93858e;
+                    background-color: #c8c3c8;
+
+                    }
+}
+
+.navbar {
+    &__btn{
+        display: inline-block;
+        text-decoration: none;
+        padding:12px 35px;
+        background-color: #8d81ac;
+        border-radius: 50px;
+        color: #fff;
+        font-family: $main-font-1;
+        font-size: 16px;
+        font-weight: 700;    
+        border: 1px solid transparent;   
+        transition: all .4s;   
+    }
+    &__btn:hover{
+        background-color: $main-bg-color;
+        border: 1px solid $main-color-dark;
+        color: $main-color-dark; 
+    }
+}

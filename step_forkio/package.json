@@ -1,0 +1,29 @@
+{
+  "name": "forkio_sp",
+  "version": "1.0.0",
+  "description": "step_proj",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ryb.anton.le/forkio_sp.git"
+  },
+  "author": "anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ryb.anton.le/forkio_sp/issues"
+  },
+  "homepage": "https://gitlab.com/ryb.anton.le/forkio_sp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "gulp-imagemin": "^6.0.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1"
+  }
+}

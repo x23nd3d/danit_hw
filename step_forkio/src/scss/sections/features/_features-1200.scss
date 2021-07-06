@@ -1,0 +1,77 @@
+.features {
+    display: flex;
+	flex-direction: row;   
+	padding-top: 54px;
+	    padding-left: 90px;
+		overflow-y: hidden;
+}   
+
+
+
+
+.features {
+    &__advantages{
+padding-top:0;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 55%;
+            }
+    &__advantage{
+        display: flex;
+		flex-direction:row;
+            }
+            &__advantage-center{
+                margin-left: 34px;
+                width: 55%;
+				text-align: initial;
+                      }
+                      &__advantage-img-center{
+                        width: 111px;
+                        height: 84px;
+                        @include flex-all-center;
+}
+
+  
+                    &__example{
+                        display: flex;
+                        flex-wrap: wrap;
+						flex-basis: 55%;
+    
+                            }
+                    &__example-slogan{
+						display: initial;
+	
+                            }
+							
+							
+							
+									 &__example-slogan-320{
+                display:none;
+                            }
+							
+							&__example-img{
+                    width: 100%;
+    height: 498px;
+	    background-repeat: no-repeat;
+                            }
+							
+													&__example-slogan-480{
+display:none;
+
+
+
+
+						
+						
+						
+                            }
+							
+                            &__example-slogan-320::before{
+                              display:none;
+                                    }
+                                    &__example-slogan-320::after{
+                                        display:none;
+                                            }
+							
+
+}

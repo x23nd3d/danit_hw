@@ -1,0 +1,136 @@
+.insta-gallery {
+	background-color: #fcfcfc;
+	padding: 130px 0;
+
+	.container {
+		max-width: 1130px;
+	}
+
+	.slick-track {
+		align-items: center;
+	}
+
+	.slick-next {
+		right: -75px;
+	}
+
+	.slick-prev {
+		left: -75px;
+	}
+	
+	.slick-next:hover, .slick-prev:hover {
+		background-color: #f6f7f7;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	}
+}
+
+.insta-photos {
+
+	&__item {
+		position: relative;
+		width: calc(100% - 30px);
+	}
+
+	&__info {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+		opacity: 0;
+		transition: 0.4s;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 27px 15px;
+	}
+
+	&__text {
+		display: flex;
+		align-items: center;
+		color: rgba(70, 61, 60, 255);
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 1.3em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	&__icon {
+		display: inline-block;
+		width: 17px;
+		height: 15px;
+		background: url(../img/icon-like.png) center/cover no-repeat;
+		margin-right: 6px;
+	}
+
+	&__likes {
+		font-size: 14px;
+	}
+
+	&__img {
+		width: 100%;
+	}
+}
+
+.slick-next,
+.slick-prev {
+	content: '';
+	position: absolute;
+	display: block;
+	top: calc(50% - 32px);
+	width: 65px;
+	height: 65px;
+	color: transparent;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	background-color: transparent;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.4s;
+	z-index: 99;
+
+	&::before,
+	&:after {
+		content: '';
+		position: absolute;
+		display: block;
+		height: 4px;
+		width: 34px;
+		border-radius: 2px;
+		background-color: #e2e2e2;
+		z-index: 10;
+	}
+
+}
+
+.slick-next {
+
+	&::before {
+		transform: rotate(45deg);
+		top: 20px;
+		left: 18px;
+	}
+
+	&:after {
+		transform: rotate(-45deg);
+		top: 42px;
+		left: 18px;
+	}
+}
+
+.slick-prev {
+
+	&::before {
+		transform: rotate(-45deg);
+		top: 20px;
+		left: 13px;
+	}
+
+	&:after {
+		transform: rotate(45deg);
+		top: 42px;
+		left: 13px;
+	}
+}

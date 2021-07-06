@@ -1,0 +1,26 @@
+.about-me-header {
+	position: relative;
+	background: linear-gradient(to top, rgba(7, 60, 60, 0.5), rgba(255, 87, 69, 0.5));
+	
+	._insta {
+		margin-top: 30px;
+	}
+	
+	&__btn {
+		margin-top: 32px;
+		
+		&:hover {
+			background-color: #00f;
+		}
+	}
+	
+	&__img {
+		position: absolute;
+		width: 412px;
+		height: 406px;
+		border-radius: 50%;
+		background: url(../img/header-about-me-img.png) center/cover no-repeat;
+		bottom: -154px;
+		right: 103px;
+	}
+}

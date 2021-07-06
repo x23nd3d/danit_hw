@@ -1,0 +1,44 @@
+/* Default font for paragraphs */
+
+  p {
+
+  font-family: 'Myriad';
+  }
+  
+  h1 {
+	  
+	   font-family: 'Myriad';
+	  
+  }
+
+  h2 {
+	  
+	   font-family: 'Myriad';
+  }
+  
+  h3 {
+	  
+	   font-family: 'Myriad';
+  }
+}
+
+body {
+	
+	margin: 0 auto;
+}
+
+/* CSS Reset */
+
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+
+  }
+
+  a {text-decoration: none; 
+ 
+
+
+  
+  }

@@ -1,0 +1,53 @@
+.lower-menu {
+	background-color: $main-color;
+	padding: 60px 0 50px;
+	
+	.container {
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	&-column {
+		width: 220px;
+		margin-right: 80px;
+	}
+	
+	&-title {
+		font-size: 20px;
+		font-weight: 700;
+		
+		&:hover .lower-menu-link {
+			color: $dark-color;
+		}
+	}
+	
+	&-list {
+		margin-top: 46px;
+	}
+	
+	&-item {
+		font-size: 15px;
+		margin-bottom: 20px;
+		
+		&:hover .lower-menu-link {
+			color: $dark-color;
+		}
+	}
+	
+	&-link {
+		text-decoration: none;
+		color: #fff;
+		line-height: 1.5;
+		transition: 0.4s;
+	}
+}
+
+.copyright {
+	background-color: #f3f5f8;
+	padding: 35px 0;
+	
+	&-item {
+		font-size: 17px;
+		color: $dark-color;
+	}
+}

@@ -1,0 +1,64 @@
+    .features{
+        flex-direction: column;
+	padding: 0 10px;     
+    }
+
+    .features{
+        
+        &__advantage{
+            flex-direction: column;
+        }
+
+        &__advantage-center{
+            margin:0;
+            width: 100%;
+            text-align: center;            
+        }
+        
+        &__example-slogan{
+            display:none;
+        }
+		 &__example-slogan-320{
+                        color: #8d81ac;
+                        font-family: $main-font-1;
+                        font-weight: 700;
+                        margin-top: 0;
+						font-size: 32px;
+text-align:center;
+
+
+
+
+						
+						
+						
+                            }
+                            &__example-slogan-320::before{
+                                content: '<';
+                                margin: 0;
+                                    }
+                                    &__example-slogan-320::after{
+                                        content: '>';
+                                        margin: 0;
+                                            }
+											
+																								&__example-slogan-480{
+display:none;
+
+
+
+
+						
+						
+						
+                            }
+		        &__example-img{
+			margin-bottom: 15px;
+        }
+
+
+        &__advantages{
+            padding-top: 34px;
+        }
+    }
+	

@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'mixins';
+@import 'variables';
+@import 'sections/sections';
+@import 'components/components';
+
+.container {
+
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}

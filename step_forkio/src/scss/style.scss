@@ -1,0 +1,20 @@
+@import "variables";
+@import "normalize";
+@import "mixin";
+@import "fonts";
+@import "components/components";
+@import "sections/sections";
+
+
+.container{
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+	padding: 0 10px;
+}
+
+.flex{
+@include flex-between
+}
+
+

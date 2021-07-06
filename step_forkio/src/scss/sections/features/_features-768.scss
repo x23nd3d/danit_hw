@@ -1,0 +1,67 @@
+    .features{
+        flex-direction: column;
+	padding: 0 10px;  
+overflow-y: hidden;	
+    }
+
+    .features{
+        
+        &__advantage{
+               flex-direction: row;
+			padding-left: 30px;
+        }
+		&__example {
+		width: 100vw;
+		}
+
+        &__advantage-center{
+    width: 70%;
+    padding-left: 25px;
+	margin:0;
+     
+    width: 70%;			
+        }
+        
+        &__example-slogan{
+            display:none;
+        }
+		 &__example-slogan-320{
+display:none;
+                            }
+                           
+											
+						&__example-slogan-480{
+                        color: #8d81ac;
+                        font-family: $main-font-1;
+                        font-weight: 700;
+                        margin-top: 0;
+						font-size: 32px;
+text-align:center;
+
+
+
+
+						
+						
+						
+                            }
+                            &__example-slogan-480::before{
+                                content: '<';
+                                margin: 0;
+                                    }
+                                    &__example-slogan-480::after{
+                                        content: '>';
+                                        margin: 0;
+                                            }
+											
+		        &__example-img{
+			margin-bottom: 15px;
+			width:100%;
+        }
+
+
+        &__advantages{
+            padding-top: 34px;
+        }
+    }
+	

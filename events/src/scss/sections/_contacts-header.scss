@@ -1,0 +1,18 @@
+.contacts-header {
+	background: linear-gradient(to top, rgba(7, 60, 60, 0.5), rgba(255, 87, 69, 0.5)), url(../img/header-contacts-bg.png) bottom/cover no-repeat;
+	
+	&__btn {
+		margin-top: 112px;
+	}
+	
+	.header__text p:nth-child(2) {
+		margin-top: 0;
+	}
+}
+
+
+@media (min-width: 1450px) {
+	.contacts-header {
+		height: 800px;
+	}
+}

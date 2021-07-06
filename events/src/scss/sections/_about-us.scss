@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'Goudy Stout';
+	src: url(../fonts/goudystout.ttf);
+}
+
+.about-us {
+	padding: 77px 0 174px 0;
+
+	.container {
+		max-width: 1106px;
+	}
+	
+	&__count {
+		position: relative;
+		
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 143px;
+			height: 132px;
+			background-color: #e0818d;
+			border-radius: 50%;
+			bottom: -200px;
+			left: -36px;
+		}
+		
+		&:after {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 170px;
+			height: 172px;
+			background-color: #b5759e;
+			border-radius: 50%;
+			bottom: -300px;
+			left: 38px;
+		}
+	}
+
+	&__events-amount {
+		color: #555353;
+		font-weight: 700;
+		
+		span {
+			font-family: 'Goudy Stout';
+			font-size: 60px;
+			margin-right: 15px;
+		}
+		
+		&:nth-child(1) {
+			font-size: 30px;
+			
+			span {
+				color: #b5759e;
+			}
+		}
+		
+		&:nth-child(2) {
+			font-size: 36px;
+			
+			span {
+				color: #595887;
+			}
+		}
+		
+		&:nth-child(3) {
+			font-size: 42px;
+			
+			span {
+				color: #5a7a9a;
+			}			
+		}
+	}
+	
+	&-quote {
+		background-color: #f7f8f9;
+		text-align: center;
+		display: inline-block;
+		margin: 53px 0 0 330px;
+		padding: 40px 95px 30px 95px;
+		width: 700px;
+		
+		&__text {
+			color: #474848;
+			font-size: 26px;
+			font-weight: 700;
+			line-height: 1.5em;
+			
+			span {
+				color: #f42d18;
+				font-size: 40px;
+			}
+		}
+	}
+	
+	&-video {
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/about-me-video.png);
+		width: 743px;
+		height: 446px;
+		border-radius: 10px;
+		@include flex-center;
+		margin: 72px auto 0;
+		
+		&__play-btn {
+			border-left: 49px solid #f93a26;
+			border-top: 37px solid transparent;
+			border-bottom: 37px solid transparent;
+		}
+	}
+	
+	&__text {
+		margin: 50px auto 0;
+		font-weight: 700;
+		color: rgb(72, 72, 72);
+		width: 716px;
+		line-height: 2em;
+	}
+}

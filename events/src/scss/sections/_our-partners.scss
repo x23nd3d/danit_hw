@@ -1,0 +1,31 @@
+.our-partners {
+	position: relative;
+	background: linear-gradient(to bottom, rgba(7, 40, 40, 0.5), rgba(150, 87, 69, 0.5));
+	
+	.container {
+		max-width: 1200px;
+		min-height: 580px;
+		@include flex-row-between;
+	}
+	
+	&__article {
+		font-weight: 700;
+		color: #fff;
+	}
+	
+	&__title {
+		font-size: 48px;
+		margin-left: 40px;
+	}
+	
+	&__text {
+		width: 500px;
+		margin-top: 30px;
+		line-height: 2em;
+		font-size: 24px;
+	}
+	
+	&__img {
+		max-width: 50%;
+	}
+}

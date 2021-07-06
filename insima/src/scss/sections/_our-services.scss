@@ -1,0 +1,37 @@
+.our-services {
+	background-color: $main-color;
+	padding: 85px 0;
+	color: #fff;
+	text-align: center;
+	
+	&-heading {
+		font-size: 32px;
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	
+	&-content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	&-item {
+		width: 200px;
+		margin: 52px 0;
+	}
+	
+	&-icon {
+		max-width: 87px;
+		max-height: 87px;
+	}
+	
+	&-text {
+		font-size: 18px;
+		margin: 17px 20px 0 20px;
+	}
+	
+	&-btn {
+		margin-top: 40px;
+	}
+}

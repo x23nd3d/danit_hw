@@ -1,0 +1,26 @@
+.logo {
+	text-decoration: none;
+
+	&__text {
+		font-family: $extra-font;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	&__delta {
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-left: 16px solid transparent;
+		border-right: 16px solid transparent;
+		margin: 0 -4px;
+
+		&_red {
+			border-bottom: 40px solid $color-one;
+		}
+
+		&_blue {
+			border-top: 40px solid #3394b6;
+		}
+	}
+}
